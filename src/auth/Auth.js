@@ -7,7 +7,7 @@ export default class Auth {
   auth0 = new auth0.WebAuth({
     domain: 'kabiyesi.auth0.com', // e.g kabiyesi.auth0.com
     clientID: 'QKZNaMaa07jqqPB4yJA5RgFSqEfDXSqq', // e.g i473732832832cfgajHYEUqiqwq
-    redirectUri: 'http://localhost:8080/callback', // e.g http://localhost:8080/callback
+    redirectUri: 'https://agitated-davinci-4df0c1.netlify.com/callback', // e.g http://localhost:8080/callback
     audience: 'http://meetapi.com', // e.g. https://meetupapi.com
     responseType: 'token id_token',
     scope: 'openid'
