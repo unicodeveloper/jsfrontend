@@ -3,7 +3,7 @@ import axios from 'axios';
 import Auth from '../src/auth/Auth.js';
 
 const auth = new Auth();
-const BASE_URL = 'http://localhost:3333';
+const BASE_URL = 'https://meetupservice.herokuapp.com';
 
 export function getPublicMeetups() {
   const url = `${BASE_URL}/api/meetups/public`;
